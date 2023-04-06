@@ -188,8 +188,8 @@ holepunch::generate_badge(branch="main")
 The first time, we will have to paste the code generated in the console into `README.md`. From there on out, the function will replace it.
 
 ```{r}
-path = getwd() %>% dirname()
-rmarkdown::render(file.path(path,name,"README.Rmd"))
+path = getwd()
+rmarkdown::render(file.path(path,"README.Rmd"))
 ```
 
 # Pushing to GitHub

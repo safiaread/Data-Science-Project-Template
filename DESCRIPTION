@@ -1,0 +1,17 @@
+Type: Compendium
+Package: My Data Analysis Project
+Title: What the Package Does (One Line, Title Case)
+Version: 1.0
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Description: This is your data analysis project compendium
+License: What license it uses
+Depends: 
+    holepunch,
+    remotes,
+    renv,
+    rmarkdown
+Remotes: 
+    karthik/holepunch
+Encoding: UTF-8
+LazyData: true
